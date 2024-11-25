@@ -54,3 +54,6 @@ console.log(combinacion.length);
 console.log(combinacion.toLowerCase());
 console.log(combinacion.toUpperCase());
 console.log(combinacion.substring(0, 12));
+
+// conversion explicita
+
