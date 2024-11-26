@@ -1,0 +1,1 @@
+let numSecreto = Math.random;
