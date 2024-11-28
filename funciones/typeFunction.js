@@ -55,3 +55,12 @@ rocket.launchMessage()
 function sum(a, b) {
     return a + b    
 }
+
+// funciones puras
+
+function sum(a, b) {
+    console.log("A = ", a);
+    
+    return a + b    
+}
+sum(3,5)
