@@ -22,8 +22,37 @@ console.log(sum);
 console.log(arrayNumbers);
 
 // metodos filter() y reduce()
+// filter devuelve lo que se cumpla en la condicionde la funcion
 
 const arrayNumbersF = [1,2,3,4,5,6,7,8,9];
 const pairNumbers = arrayNumbersF.filter(num => num % 2 === 0)
 console.log(pairNumbers);
 
+
+// devuelve la suma de los valores del array
+const lastNumber = arrayNumbersF.reduce((acumulator,currentValue) => acumulator + currentValue, 0) 
+console.log(lastNumber);
+
+//reduce() tambien puede decirnos cuantas veces se repite un valor en un array
+
+// metodo find()---------busca un valor que coincida con la condicion de la funcion
+
+const numbers5 = [1,2,3,4,5];
+const numbersFind = numbers5.find(number => number >3)
+console.log(numbersFind);
+
+console.log("---------------------");
+
+const words = ["hola", "juanjo", "tierra", "aire"]
+const wordFind = words.find(word => word === "juanjo")
+console.log(words)
+console.log(wordFind);
+
+
+console.log("---------------------");
+//devuelve el indice del elemento buscado
+
+const wordFindIndex = words.findIndex(word => word === "aire")
+
+console.log(words)
+console.log(wordFindIndex);
