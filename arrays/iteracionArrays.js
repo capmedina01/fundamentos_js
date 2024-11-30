@@ -56,3 +56,15 @@ const wordFindIndex = words.findIndex(word => word === "aire")
 
 console.log(words)
 console.log(wordFindIndex);
+
+console.log("---------------------");
+
+//metodo slice()-------------devuelve los elementos desde el indice que le indiquemos
+
+const words2 = ["hola", "juanjo", "tierra", "aire"]
+
+console.log(words2.slice(2, 5));
+console.log(words2.slice(1, 3));
+
+
+
